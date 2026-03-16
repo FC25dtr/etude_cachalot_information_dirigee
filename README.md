@@ -66,6 +66,11 @@ Contrairement à l'Information Mutuelle, elle est asymétrique et permet de dét
 une relation de causalité directionnelle entre deux séries temporelles.
 
 ---
+## 🔗 Données
+
+Les trajectoires utilisées dans ce projet sont issues des campagnes d'observation de 
+[Mission Sphyrna Odyssée](https://www.missionsphyrna.org), dédiée à l'étude et à la 
+protection des cétacés en Méditerranée.
 
 ## 👤 Auteur
 
