@@ -1,4 +1,4 @@
-# 🐋 Analyse comportementale de cachalots par Information Dirigée
+# Analyse comportementale de cachalots par Information Dirigée
 
 Projet académique réalisé dans le cadre de Mission Sphyrna Odyssée.  
 L'objectif est d'identifier un individu alpha au sein d'un groupe de six cachalots  
@@ -6,7 +6,7 @@ L'objectif est d'identifier un individu alpha au sein d'un groupe de six cachalo
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 ```
 ├── main.py                        # Script principal
 ├── Trajectoire_Cesar_sec.csv
@@ -19,7 +19,7 @@ L'objectif est d'identifier un individu alpha au sein d'un groupe de six cachalo
 
 ---
 
-## ⚙️ Méthodologie
+##  Méthodologie
 
 1. **Chargement** des trajectoires GPS brutes (longitude, latitude, profondeur, temps)
 2. **Synchronisation** par ajustement polynomial (`fit_traj`) sur une grille temporelle commune
@@ -31,7 +31,7 @@ L'objectif est d'identifier un individu alpha au sein d'un groupe de six cachalo
 
 ---
 
-## 📊 Résultats produits
+## Résultats produits
 
 - Matrice d'Information Dirigée (6×6)
 - Score d'influence global par animal
@@ -40,14 +40,14 @@ L'objectif est d'identifier un individu alpha au sein d'un groupe de six cachalo
 
 ---
 
-## 🐍 Dépendances
+##  Dépendances
 ```bash
 pip install numpy pandas matplotlib
 ```
 
 ---
 
-## 🚀 Utilisation
+##  Utilisation
 
 Placer les fichiers CSV dans le même dossier que `main.py`, puis :
 ```bash
@@ -56,7 +56,7 @@ python main.py
 
 ---
 
-## 📚 Contexte théorique
+##  Contexte théorique
 
 L'**Information Dirigée** (Massey, 1990) mesure le flux d'information causal de X vers Y :
 
@@ -66,12 +66,12 @@ Contrairement à l'Information Mutuelle, elle est asymétrique et permet de dét
 une relation de causalité directionnelle entre deux séries temporelles.
 
 ---
-## 🔗 Données
+##  Données
 
 Les trajectoires utilisées dans ce projet sont issues des campagnes d'observation de 
 [Mission Sphyrna Odyssée](https://www.missionsphyrna.org), dédiée à l'étude et à la 
 protection des cétacés en Méditerranée.
 
-## 👤 Auteur
+##  Auteur
 
 Rapport rédigé par **Tonin PACHER**  
